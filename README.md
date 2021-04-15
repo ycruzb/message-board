@@ -2,7 +2,7 @@
 
 I've decided to use Nextjs because it's very useful, it includes not only the front-end but also the back-end using its API approach based in Node.js. I've selected a native graphql service in the cloud called Dgraph instead of using an in memory database because it's a most exciting solution. Finally I decided to use all this kind approach in order to achieve a complete and functional solution, including CI/CD with a very easy deployment process.
 
-The only difference between an Express install and the Nextjs API approach is the way of generate the routes of the endpoints. I've to say that I can go forward with an Express install but this solution with Nextjs doesn't require a server to be deployed so this approach is very useful considering this kind of stuff and think that it's a better fit. 
+The only difference between an Express install and the Nextjs API approach is the way of generate the routes of the endpoints. I've to say that I can go forward with an Express install but this solution with Nextjs doesn't require a server to be deployed so this approach is very useful considering this kind of stuff and think that it's a better fit.
 
 I used more time in order to create a full demo with all requirements. The idea was to do my best and achieve a functional demo including certain level of UI/UX.
 You can check it out at this url:
@@ -29,7 +29,7 @@ npm i
 
 4. Must have a GraphQL server running and accepting this schema:
 
-`
+```
 type message {
 id: ID!
 text: String!
@@ -41,7 +41,7 @@ id: ID!
 name: String!
 messages: [message]
 }
-`
+```
 
 5. Run the development server:
 
