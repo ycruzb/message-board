@@ -1,5 +1,3 @@
-# Solution details
-
 Little bit demo developed in Next.js using its API approach and Dgraph as a native graphql database.
 
 [https://message-board-demo.vercel.app/](https://message-board-demo.vercel.app/)
